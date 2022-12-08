@@ -4,8 +4,8 @@ export default function Formulario({obj,eventoTeclado,alterar,remover,cancelar,b
 <form>
 
 <input type='date'  value={obj.data} onChange={eventoTeclado}  name='data' placeholder='data' min="2022-11-27" className='form-control'/>
-<input type='text'  value={obj.horarioInicio}  onChange={eventoTeclado} name='horarioInicio' placeholder='inicio_reuniao' className='form-control' />
-<input type='text'  value={obj.horarioFinal}  onChange={eventoTeclado} name='horarioFinal' placeholder='termino_reuniao'  className='form-control'/>
+<input type='text'  value={obj.horarioInicio}  onChange={eventoTeclado} name='horarioInicio' placeholder='Horário de Início' className='form-control' />
+<input type='text'  value={obj.horarioFinal}  onChange={eventoTeclado} name='horarioFinal' placeholder='Horário de Término'  className='form-control'/>
  
  
 <div>

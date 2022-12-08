@@ -111,13 +111,13 @@ const PagesHome = () => {
 
      <div className="divagenda">
       <img src={dr} className="dra"></img> 
-      <p className="pdra">Dra. Meridth Gray</p>
+      <p className="pdra">Dra. Meredith Gray</p>
       <p className="plocal">Rua Almirantes Neto, 230. Recife, Pernambuco</p>
     </div> 
       <br></br>
       <hr></hr>
       
-      <p className="pesp">Reunião por:</p> <p>Dra. Meridth Gray</p>
+      <p className="pesp">Reunião por:</p> <p>Dra. Meredith Gray</p>
       
 
       <hr></hr>
@@ -145,8 +145,9 @@ const PagesHome = () => {
       <hr></hr>
 
       <p className="pesp">Horário</p>
+
       <div className="divhorario">
-        <p>Horário de Inicio:</p>
+      <p>Horário de Início:</p>
         <input
           type="time"
           className="input"
@@ -154,7 +155,8 @@ const PagesHome = () => {
           onChange={aoDigitar}
           name="horarioInicio"
         ></input>
-        <p>Horário de Inicio:</p>
+       
+        <p>Horário de Término:</p>
         <input
           type="time"
           className="input"
